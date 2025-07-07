@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Ahmed - Mobile Development Student</title>
+    <link rel="icon" href="icon.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<blockquote class="blockquote1">“If you can imagine it, you can do it.”</blockquote>
+<blockquote class="blockquote2">if (you alive) {coding}<br>else {die}</blockquote>
+
+<body>
+
+    <!-- Hero Header -->
+    <header class="hero">
+        <h1>Mohamed Ahmed</h1>
+        <p><strong>Flutter Development Student</strong> | Flutter, Dart & Firebase</p>
+        <nav class="main-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>
+                Hello! <strong>I’m Mohamed Ahmed</strong>, a passionate mobile development student with a strong focus
+                on Flutter, Dart,
+                and Firebase.
+                I started with a curiosity about how apps work, which grew into a deep interest in building real-world
+                projects.
+
+                I've gained experience in working with REST APIs, MVVM architecture, and real-time features using
+                Firebase.
+                Recently, I’ve started exploring web development to move toward becoming a full-stack developer.
+
+                I enjoy learning by building real apps, and I’m always eager to explore new technologies.
+                My long-term goal is to contribute to impactful projects and create solutions that make a
+            </p>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills" class="card">
+            <h2>My Skills</h2>
+            <ul class="skills-list">
+                <li>Flutter Development</li>
+                <li>Working with APIs</li>
+                <li>MVVM Architecture</li>
+                <li>Web Development (recently)</li>
+                <li>Team Work</li>
+                <li>Problem Solving</li>
+                <li>Adaptation</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="card">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>📚 Bookly App</h3>
+                <p>
+                    A Flutter app for exploring books using the Google Books API. It features horizontal and vertical
+                    book lists, detailed pages, and smooth transitions with MVVM architecture and BLoC state management.
+                </p>
+                <a href="https://github.com/mohamedagm/Bookly" class="project-link">View on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>📝 Notes App</h3>
+                <p>
+                    A sleek and minimal note-taking app built with Flutter and Hive for local storage. Allows users to
+                    create, update, and delete notes with custom colors and a beautiful UI.
+                </p>
+                <a href="https://github.com/mohamedagm/notes_v1" class="project-link">View on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>🐱‍👤 Portfolio</h3>
+                <p>
+                    simple portfolio website to showcase my projects and skills. It includes sections for about me,
+                    skills,
+                    projects, and contact information. The design is clean and responsive, ensuring a great user
+                    experience
+                    across devices.
+                </p>
+                <a href="#" class="project-link">See Live</a>
+            </div>
+
+            <div class="project">
+                <h3>📰 News App</h3>
+                <p>
+                    A modern news application displaying articles fetched from a RESTful API. Includes category
+                    filtering, article previews, and external browser redirection for full content, all wrapped in a
+                    responsive design.
+                </p>
+            </div>
+
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Author: AboGM | Email: <a href="mailto:abogm44ud@gmail.com">Send me</a></p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook 🌐</a>
+            <a href="https://twitter.com" target="_blank">Twitter 🐦</a>
+            <a href="https://github.com/mohamedagm" target="_blank">GitHub 💻</a>
+        </div>
+        <p>&copy; 2025 after middle. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
